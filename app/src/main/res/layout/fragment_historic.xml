@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lg.stockmarketviewer.Historic">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--
+    <TextView
+        android:id="@+id/helper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Historic Charts"
+        android:textSize="25sp" />
+-->
+    <WebView
+        android:id="@+id/highchart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9f9f9">
+
+    </WebView>
+</LinearLayout>
